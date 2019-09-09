@@ -1,0 +1,23 @@
+:global(body){
+    background-color: red;
+}
+div{
+    box-sizing: border-box;
+}
+.red{
+    background-color: red;
+}
+:global(.gold){
+    background-color: gold;
+}
+:local(.aqua){
+    background-color:aqua;
+}
+.root{
+    background-color:rgb(208, 243, 54);
+    padding:10px;
+    border:3px solid rgb(24, 126, 185);
+}
+.normal{
+    background-color: aquamarine
+}
